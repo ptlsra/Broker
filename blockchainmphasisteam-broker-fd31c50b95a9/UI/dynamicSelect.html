@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<select name="ins" id="ins">
+ 
+</select>
+<script>
+	$.getJSON("http://api.open-notify.org/astros.json", function(response){
+	//	alert(JSON.stringify(response))
+
+$.each(response.people, function (i, item) {
+	//alert(JSON.stringify(item));
+    $('#ins').append($('<option>', { 
+        value: item.name,
+        text : item.name 
+    }
+    
+    ));
+});
+	});
+</script>
+</body>
+</html>

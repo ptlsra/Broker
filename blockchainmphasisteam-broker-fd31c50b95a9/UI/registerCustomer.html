@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>MBroker-Register Customer</title>
+<link rel="stylesheet" href="assets5/css/form-elements.css">
+        <link rel="stylesheet" href="assets5/css/style.css">
+            <link rel="stylesheet" href="assets5/fonts/font-awesome.min.css">
+<link href="fontCustom.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+        <script src="assets/jquery-3.2.1.min.js"></script>
+
+</head>
+
+<body>
+		<div id="customerLoginHeader1"></div>
+
+
+<div id="wrapper"> 
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+					<div id="customerLoginHeader2"></div>
+
+				<!-- end #sidebar -->
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Welcome to mBroker  </a></h2>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						<!-- Login Form -->
+							
+							<form role="form"  class="f1" style="margin-top:2px;" id="registerCustomerForm">
+
+                    		<h3>Register As Customer</h3>
+                    		<p></p>
+                    		<div class="f1-steps">
+                    			<div class="f1-progress">
+                    			    <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3" style="width: 16.66%;"></div>
+                    			</div>
+                    			<div class="f1-step active">
+                    				<div class="f1-step-icon"><i class="fa fa-user" style="margin-left:13px;"></i></div>
+                    				<p>About</p>
+                    			</div>
+                    			<div class="f1-step">
+                    				<div class="f1-step-icon"><i class="fa fa-key" style="margin-left:13px;"></i></div>
+                    				<p>Details</p>
+                    			</div>
+                    		    <div class="f1-step">
+                    				<div class="f1-step-icon"><i class="fa fa-map" style="margin-left:13px;"></i></div>
+                    				<p>Account</p>
+                    			</div>
+
+<div class="f1-step">
+                    				<div class="f1-step-icon"><i class="fa fa-check" style="margin-left:13px;"></i></div>
+                    				<p>Summary</p>
+                    			</div>
+                    		</div>
+                    		
+                    		<fieldset>
+                    		    <h4>Tell us who you are:</h4>
+                    		    <br>
+                    			<div class="form-group">
+                    			    <label class="sr-only" for="f1-first-name">First name</label>
+                                    <input type="text" name="f1-first-name" placeholder="First name..." class="f1-first-name form-control" id="f1-first-name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="f1-last-name">Last name</label>
+                                    <input type="text" name="f1-last-name" placeholder="Last name..." class="f1-last-name form-control" id="f1-last-name" required>
+                                </div>
+                                
+                                
+                                
+                                
+                                <div class="form-group">
+                                    <label class="sr-only" for="f1-userName">UserName</label>
+                                    <input type="email" name="f1-userName" placeholder="Enter email :eg xxx@xxx.com" class="f1-userName form-control" id="f1-userName" required>
+                                </div>
+                                
+                                <div class="f1-buttons">
+                                    <button type="button" id="next1" class="btn btn-next">Next</button>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <h4>Personal Details:</h4>
+                                
+                                 <div class="form-group">
+                                    <label class="sr-only" for="f1-dob">Date Of Birth</label>
+                                    <input type="text" name="f1-dob" placeholder="eg:12/11/1994" class="f1-dob form-control" id="f1-dob" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="f1-email">Email</label>
+                                    <input type="email" name="f1-email" placeholder="Email..." class="f1-email form-control" id="f1-email" readonly>
+                                </div>
+                               
+                                <div class="f1-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="button" class="btn btn-next" id="next2">Next</button>
+                                </div>
+                            </fieldset>
+
+
+
+
+ <fieldset>
+                                <h4>Set Up Your Account:</h4>
+                                
+                                
+                                 <div class="form-group">
+                                    <label class="sr-only" for="f1-password">Password</label>
+                                    <input type="password" name="f1-password" placeholder="Password..." class="f1-password form-control" id="f1-password" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="f1-repeat-password">Repeat password</label>
+                                           <label  id="wrongPass" style="color:red;">Password's Do Not Match* </label>
+                                    
+                                    <input type="password" name="f1-repeat-password" placeholder="Repeat password..." 
+                                                        class="f1-repeat-password form-control" id="f1-repeat-password" required>
+                                </div>
+                                <div class="form-group">
+     <!--                             
+       <label class="sr-only" for="scheme">Scheme :</label>
+     
+    <select name="scheme" id="scheme" style="color:black;background: transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;cursor:pointer; margin-top:5px;">
+  <option value="null" selected="selected">Select a Scheme</option>
+  <option value="Individual-Sum-Insured">Individual Sum Insured</option>
+    <option value="Family-Floater-Sum-Insured">Family Floater Sum Insured</option>
+  
+ 
+</select>
+
+<br>   
+<br>
+
+<label class="sr-only" for="tenure">Tenure :</label>
+     
+    <select name="tenure" id="tenure" style="color:black;background: transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;cursor:pointer; margin-top:5px;width:200px;margin-left:5px;">
+  <option value="null" selected="selected">Select a Tenure</option>
+  <option value="1yr">1 years</option>
+    <option value="2yr">2 years</option>
+     <option value="3yr">3 years</option>
+  
+ 
+</select>
+
+<br>
+
+<br>
+
+
+<label class="sr-only" for="amount">Sum Insured (in Rs) :</label>
+
+<input type="text" name="f1-amount" placeholder="Amount ..." class="f1-amount form-control" id="f1-amount" required>
+                       <br>     
+ -->  
+   <div class="f1-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="button" class="btn btn-next" id="next3">Next</button>
+                                </div>
+                                </div>
+                            </fieldset>
+
+
+
+                            <fieldset>
+                                <h4>Details Entered :</h4>
+                                
+                                <table style="border-spacing: 15px;">
+                                <tr>
+                                <td> First Name:</td>
+                                <td id="f1-firstName" name="f1-firstName"></td>
+                                </tr>
+                                
+                                  <tr>
+                                <td> Last Name :</td>
+                                <td id="f1-lastName" name="f1-lastName"></td>
+                                </tr>
+                                
+                                 <tr>
+                                <td> DOB :</td>
+                                <td id="f1-Dob" name="f1-Dob"></td>
+                                </tr>
+                                
+                                
+                                 <tr>
+                                <td> User Name :</td>
+                                <td id="f1-username"  name="f1-username"></td>
+                                </tr>
+                                
+                                <tr>
+                                <td> Email :</td>
+                                <td id="f1-mail"  name="f1-mail"></td>
+                                </tr>
+                                
+                                 <tr>
+                                <td id="f1-Password" name="f1-Password"></td>
+                                </tr>
+                                
+                                 <tr>
+                                 <!-- 
+                                <td> Scheme :</td>
+                                <td id="f1-scheme" name="f1-scheme"></td>
+                                </tr>
+                                
+                                  <tr>
+                                <td> Tenure :</td>
+                                <td id="f1-tenure" name="f1-tenure"></td>
+                                </tr>
+                                
+                                  <tr>
+                                <td> Amount :</td>
+                                <td id="f1-Amount" name="f1-Amount"></td>
+                                </tr>
+                                 -->
+                                
+                                </table>
+                                
+                                <div class="f1-buttons">
+                                    <button type="button" class="btn btn-previous">Previous</button>
+                                    <button type="button" class="btn btn-submit" id="regButtonSubmit">Submit</button>
+                                </div>
+                              
+                            </fieldset>
+                    	
+                    	</form>
+                    	
+                    	 <form id="txMessageForm">
+<p><img src="images/tick.png" width="200" height="150" alt="" /></p>
+<p  style="font-size:18px;font-weight:bold;color:black;">Transaction Successfull with ID:</p>
+<p  style="font-size:12px;font-weight:bold;color:black;" id="txIdData"></p>
+
+						
+						</form>
+						
+						 <form id="txWaiting">
+<p  style="font-size:18px;font-weight:bold;color:black;">Processing Request  <img src="images/loading.gif" width="40" height="40" alt="" /></p>
+
+						
+						</form>
+                    	
+						</div>
+					</div>
+					
+					
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				
+				<div id="sidebar2">
+					<ul>
+						<li>
+							<h2>Health Care Resources</h2>
+							<p>Find suitable health care plans for you and your family.</p>
+						</li>
+						<li >
+							<h2 >Member Resources </h2>
+							<ul>
+								<li><a href="#">Managing Costs </a></li>
+								<li><a href="#">Choose a Doctor</a></li>
+								<li><a href="#">Know Your Care Options</a></li>
+								<li><a href="#">Pharmacy Benefits</a></li>
+								<li><a href="#">Affordable Health Care Act</a></li>
+								<li><a href="#">MediCare</a></li>
+								<li><a href="#">Find A Doctor</a></li>
+								<li><a href="#">Frequently Asked Questions</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page --> 
+</div>
+
+
+
+<!-- end #footer -->
+</body>
+<script src="js/commonHeaderCustomerLogin.js"></script>
+
+ <script src="assets5/js/jquery.backstretch.min.js"></script>
+        <script src="assets5/js/retina-1.1.0.min.js"></script>
+        <script src="assets5/js/scripts.js"></script>
+        <script>
+   	 $("#next1").hide();
+   	 $("#wrongPass").hide();
+   	 $("#next2").hide();
+        $("#next3").hide();
+        $("#f1-Password").hide();
+        
+   	document.getElementById("txMessageForm").style.display = "none"; 
+	document.getElementById("txWaiting").style.display = "none"; 
+   	
+        </script>
+        
+        <script src="js/Properties.js"></script>
+  <script src="js/registerCustomerPost.js"></script>
+</html>

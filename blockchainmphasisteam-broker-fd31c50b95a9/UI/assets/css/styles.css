@@ -1,0 +1,185 @@
+a#marsh-icon.navbar-brand.navbar-link {
+}
+
+img#marsh-image {
+  height:150%;
+}
+
+nav#dashboard-nav.navbar.navbar-default {
+  border-radius:0px;
+  background:rgb(36,36,133);
+}
+
+div#statistics-div-one {
+  margin-top:16px;
+  margin-bottom:16px;
+  text-align:center;
+}
+
+div#first-container.container {
+  margin-bottom:40px;
+  margin-top:40px;
+}
+
+h1#number-of-users-heading {
+  font-size:x-large;
+  font-family:sans-serif;
+}
+
+i#users-icon.fa.fa-users {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+span#users-span {
+  font-size:medium;
+}
+
+div#first-row-first-col.col-md-3 {
+  margin:26px;
+}
+
+div#first-row-second-col.col-md-3 {
+  margin:26px;
+}
+
+i#claims-icon.fa.fa-file-text-o {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+h1#number-of-claims-heading {
+  font-size:x-large;
+}
+
+h1#approved-policies-heading {
+  font-size:x-large;
+}
+
+i#approved-policy-icon.fa.fa-check-circle {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+div#statistics-second-row.row {
+  text-align:center;
+}
+
+h1#blocks-heading {
+  font-size:x-large;
+  font-family:sans-serif;
+}
+
+i#blocks-icon.fa.fa-cubes {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+h1#number-of-tpa-heading {
+  font-size:x-large;
+}
+
+h1#number-of-insurance-heading {
+  font-size:x-large;
+}
+
+i#tpa-icon.fa.fa-institution {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+i#insurance-icon.fa.fa-umbrella {
+  font-size:60px;
+  color:rgb(135,224,252);
+}
+
+div#separator-div {
+  margin:26px;
+  padding:3px;
+  background-color:rgb(251,134,190);
+}
+
+a#home-button {
+  background:rgb(36,36,133);
+}
+
+div#analytics-first-row-first-col.col-md-6 {
+}
+
+div#analytics-container.container {
+  text-align:center;
+}
+
+div#analytics-div {
+  text-align:center;
+}
+
+div#analytics-first-row-first-col.col-md-5 {
+  margin:6px;
+}
+
+div#analytics-first-row-second-col.col-md-5 {
+  margin:6px;
+}
+
+div#analytics-second-row-first-col.col-md-5 {
+  margin:6px;
+}
+
+div#second-row-second-col.col-md-5 {
+  margin:6px;
+}
+
+div#analytics-heading-div {
+  margin:16px;
+  text-align:center;
+  margin-bottom:60px;
+  margin-top:60px;
+}
+
+h1#marsh-analytics-heading {
+  font-size:xx-large;
+  font-family:sans-serif;
+}
+
+#first-row-first-col {
+}
+
+#claim-status-list-heading {
+  font-size:x-large;
+}
+
+#dependents-by-policy-heading {
+  font-size:x-large;
+}
+
+#claim-count-estimate-heading {
+  font-size:x-large;
+}
+
+#live-txn-stream-heading {
+  font-size:x-large;
+}
+
+#claims-span {
+  font-size:medium;
+}
+
+#approved-policies-span {
+  font-size:medium;
+}
+
+#tpa-span {
+  font-size:medium;
+}
+
+#insurance-span {
+  font-size:medium;
+}
+
+#blockheight-span {
+  font-size:medium;
+}
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title> MBroker Admin-View Approved Request</title>
+<link href="fontCustom.css" rel="stylesheet" type="text/css">
+<link href="admin.css" rel="stylesheet" type="text/css" media="screen" />
+     <script src="assets/jquery-3.2.1.min.js"></script>
+
+<link rel="stylesheet" href="assets/DataTables/DataTables-1.10.18/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+
+		<div id="commonHeaderAdmin"></div>
+
+<div id="wrapper"> 
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+
+				
+					<div id="sidebar" style="width:200px;margin-left:5px;">
+							<ul>
+								<li>
+									<h3>mBroker Dashboard</h3>
+									<br>
+									<p><img src="images/marshbanner1.jpg" width="230" height="70" alt="" /></p>
+								</li>
+								<li>
+									<h2>Admin Service</h2>
+									<ul>
+									<li class="active"><a href="allPolicyRequest.html">View All Policy Requests</a></li>
+										<li><a href="ViewAllPolicies.html">View Policies</a></li>
+										<li><a href="ViewAllCustomers.html">View Clients</a></li>
+										<li><a href="ViewAllClaimsIns.html">View Claims</a></li>
+										<li><a href="allTxMarsh.html">View All Transaction</a></li>
+		
+		
+									</ul>
+								</li>
+								<li>
+									<h2 style="margin-bottom:5px;">Analytics</h2>
+									
+								</li>
+								
+							</ul>
+						</div>
+				<!-- end #sidebar -->
+				<div id="content">
+					<div class="post">
+						<h4 class="title" style="font-size:22px;" id="intro"><a href="#">View Request Info </a></h4>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						<div style="width:800px;">
+						
+						 <table  class="tableContent" id="policyTable">
+						 <tr>
+						 <td >Customer Name</td>
+						  <td class="boldStyle" id="customerName" name="customerName">Customer Name</td>
+						 
+						 </tr>
+						 
+						  <tr>
+						 <td >Customer Address</td>
+						  <td class="boldStyle" id="customerAddress" name="customerAddress">Customer Name</td>
+						 
+						 </tr>
+						 
+						 <tr>
+						 <td >Sum Insured (USD) </td>
+						  <td class="boldStyle" id="sumInsured" name="sumInsured">Customer Name</td>
+						 
+						 </tr>
+						 
+						  <tr>
+						 <td >Scheme </td>
+						  <td class="boldStyle" id="scheme" name="scheme">Customer Name</td>
+						 
+						 </tr>
+						 
+						 <tr>
+						 <td >Tenure </td>
+						  <td class="boldStyle" id="tenure" name="tenure">Customer Name</td>
+						 
+						 </tr>
+						 
+						 
+						 <tr>
+						 <td >Status </td>
+						  <td class="boldStyle" >Request Approved</td>
+						 
+						 </tr>
+						 
+						 
+						 
+						  </table>
+						  
+						  
+						    <form class="simpleForm2" style="margin-top:20px;" action="" method="post" id="mainForm"> 
+     <fieldset>
+	<legend>Dependent Information:</legend>
+	
+	 <p style="font-weight:bold;">Dependent's Name <span style="margin-left:52px;">Dependent's age</span>  <span style="margin-left:70px;">Gender</span> <span style="margin-left:130px;">Relation</span> </p> 
+	<div id='parent'>
+</div>
+<br>
+
+ 
+	<input type="text" name="lengths" id="lengths">
+	<input type="text" name="requestId" id="requestId">
+	<input type="text" name="userNames" id="userNames">
+ <input type="text" name="walletAddress" id="walletAddress">
+ <input type="text" name="policyValidity" id="policyValidity" value="1609207904"/>
+ 
+ 
+						  </fieldset>
+						  </form>
+						</div>
+						</div>
+					</div>
+				
+					
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				
+				
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page --> 
+</div>
+<script src="js/commonHeaderAdmin.js"></script>
+
+<script src="js/Properties.js"></script>
+  <script src="js/commonHeader.js"></script>
+
+ <script src="js/Properties.js"></script>
+  <script src="js/viewRequestDetailsDone.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "name": "broker",
+  "version": "1.0.0",
+  "description": "broker api for claims management on blockchain",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Broker",
+    "Blockchain",
+    "ClaimsMangement"
+  ],
+  "author": "Mphasis",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/blockchainmphasisteam/broker#readme",
+  "devDependencies": {
+    "abi-decoder": "^1.2.0",
+    "asyncawait": "^1.0.7",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "fs": "0.0.1-security",
+    "ipfs-api": "^26.1.0",
+    "log4js": "^3.0.6",
+    "md5": "^2.2.1",
+    "mongodb": "^2.2.33",
+    "pdfkit": "^0.8.3",
+    "request": "^2.88.0",
+    "web3-quorum": "^0.1.1"
+  },
+  "dependencies": {
+    "morgan": "^1.9.1"
+  }
+}

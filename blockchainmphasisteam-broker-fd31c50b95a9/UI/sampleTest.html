@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Add Remove input fields dynamically using jQuery bootstrap</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+</head>
+<body>
+<div id='parent'>
+</div>
+<button onClick="addBox()" style="margin-top:10px;">add text</button>
+ 
+<script type="text/javascript">
+ 
+    $(document).ready(function() {
+    	
+    	addBox = function(){
+    		alert($("input:text").length);
+    		var length=$("input:text").length;
+    		var input = document.createElement('input'); 
+    		input.type = "text"; 
+    		input.setAttribute("id", "Div"+length);
+    		input.setAttribute("placeholder", "Enter Dependent's Name");
+    		  
+    	    document.getElementById("parent").appendChild(input);
+    		/*
+    	    var textBox = document.createElement("input");
+    	    textBox.setAttribute("id", "Div"+length);
+    	    document.getElementById("parent").appendChild(textBox);
+    	    */
+    	}
+ 
+    });
+ 
+</script>
+ 
+</body>
+</html>

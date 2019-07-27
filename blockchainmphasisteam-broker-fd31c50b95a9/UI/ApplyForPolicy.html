@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>MBroker-Apply For a Policy</title>
+<link href="fontCustom2.css" rel="stylesheet" type="text/css">
+<link href="customer.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="pdf.css" rel="stylesheet" type="text/css" />
+
+    <script src="assets/jquery-3.2.1.min.js"></script>
+    
+     <script src="assets/jquery-ui-1.11.1/jquery-1.11.1.min.js"></script>
+ 
+<script src="assets/jquery-ui-1.11.1/jquery-ui.min.js"></script>
+
+
+      
+<link rel="stylesheet" href="assets/jquery-ui-1.11.1/jquery-ui.css" /> 
+</head>
+<body>
+
+		<div id="commonHeaderForCustomerPages1"></div>
+
+<div id="wrapper"> 
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+
+					<div id="sidebar">
+							<ul>
+								<li>
+								<h2>Customer Dashboard </h2>
+								<p><img src="images/marshbanner1.jpg" width="230" height="70" alt="" /></p>
+							</li>
+								<li>
+									<h2>Available Service</h2>
+									<ul>
+									<li ><a href="CustomerDashboard.html">Go To Dashboard</a></li>
+										<li><a href="CustomerProfile.html">View Your Profile</a></li>
+										
+										<li  class="active"><a href="ApplyForPolicy.html">Request a Policy</a></li>
+										<li><a href="CustomerPolicy.html">View Your Policies</a></li>
+										<li><a href="CustomerClaims.html">View Your Claims</a></li>
+										<li><a href="AllTx.html">View All Transactions</a></li>
+										<li><a href="logOut.html">Log Out</a></li>
+					
+									</ul>
+								</li>
+								<li>
+									<h2>Insurance plans</h2>
+									<ul>
+										<li><a href="#">Short Term Health Insurance</a></li>
+										<li><a href="#">Critical Illness Insurance</a></li>
+										
+					
+									</ul>
+								</li>
+								
+							</ul>
+						</div>
+				<!-- end #sidebar -->
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Request For A Policy </a></h2>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						<!-- Login Form -->
+							
+						<form class="formNew"  id="firstForm">
+						  <fieldset>
+						    <legend>Profile Information:</legend>
+						    <br>
+						     Name:
+						    <br>
+						    <input  type="text" name="name" id="name">
+						    <br>
+						    User Name:<br>
+						    <input type="text" name="userName" id="userName">
+						    <br>
+						    
+						    Wallet Address:<br>
+						    <input type="text" name="walletAddress" id="walletAddress">
+						    <br>
+						    Email ID:<br>
+						    <input type="text" name="emailId" id="emailId">
+						    <br>
+						    
+						      Date Of Birth:<br>
+						    <input type="text" name="dob" id="dob">
+						    <br>
+						   
+						   <!-- 
+						     Scheme:<br>
+						    <input type="text" name="scheme" id="scheme">
+						    <br>
+						    
+						     Tenure:<br>
+						    <input type="text" name="tenure" id="tenure">
+						    <br>
+						    
+						    Amount Insured (in Rs):<br>
+						    <input type="text" name="sumInsured" id="sumInsured">
+						    <br>
+						     --> 
+						   <!--    <p id="uploadDoc"> Upload Policy Document:
+						   <input type="file" name="policyDocument" id="policyDocument"/>
+						   </p>
+						    <br>
+						   -->
+						  
+						   
+						   </p>
+						    
+						   
+						    
+					<!-- 	    <button type=button  id="preview_doc">Preview Document</button>
+						     <button type=button  id="create_pdf">Generate Document</button> -->
+						  </fieldset>
+						</form>
+<!--						
+
+<!-- Add Dependents -->
+						<form style="width:850px;" id="secondForm">
+						
+						
+						
+						 <fieldset>
+						    <legend>Enter Information:</legend>
+							
+
+
+ <label class="sr-only" for="scheme">Select a Scheme :</label>
+     
+    <select name="scheme" id="scheme" style="color:black;background: transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;cursor:pointer; margin-top:5px;">
+  <option value="Individual-Sum-Insured" selected="selected">Select a Scheme</option>
+  <option value="Individual-Sum-Insured">Individual Sum Insured</option>
+    <option value="Family-Floater-Sum-Insured">Family Floater Sum Insured</option>
+  
+ 
+</select>
+
+<br>   
+<br>
+
+<label class="sr-only" for="tenure">Tenure :</label>
+     
+    <select name="tenure" id="tenure" style="color:black;background: transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;cursor:pointer; margin-top:5px;width:200px;margin-left:5px;">
+  <option value="1yr" selected="selected">Select a Tenure</option>
+  <option value="1yr">1 years</option>
+    <option value="2yr">2 years</option>
+     <option value="3yr">3 years</option>
+  
+ 
+</select>
+
+<br>
+
+<br>
+
+
+
+<input type="number"  placeholder="Enter Amount in USD"  id="amount" name="amount" required style="width: 80%;">
+<br>
+
+
+ </fieldset>
+  
+ <br>
+ <br>
+ <fieldset>
+ <legend>Dependent Information:</legend>
+
+<div id='parent'>
+</div>
+
+<input type="text" name="length" id="length">
+<input type="text" name="userNames" id="userNames">
+<input type="text" name="customerName" id="customerName">
+ <input type="text" name="customerAddress" id="customerAddress">
+
+ <input type="text" name="policyValidity" id="policyValidity"/>
+
+<button class="dependentButton" onClick="addBox()" style="margin-top:10px;" type="button"> <i class="fa fa-plus-square" style="margin-right:10px;margin-left:10px;"></i>add Dependent</button>
+
+<button  class="dependentSubmit" id="Submit" type="submit">Submit</button>
+						  </fieldset>
+
+						
+</form>
+
+<form id="txMessageForm">
+<p><img src="images/tick.png" width="200" height="150" alt="" /></p>
+<p  style="font-size:18px;font-weight:bold;color:black;">Request has been placed successfully.</p>
+						
+						</form>
+						
+						 
+<br>						
+
+						
+		
+						</div>
+					</div>
+					
+					
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				
+				
+				<div id="sidebar2">
+					<ul>
+						<li>
+							<h2>Health Care Resources</h2>
+							<p>Find suitable health care plans for you and your family.</p>
+						</li>
+						<li >
+							<h2 >Member Resources </h2>
+							<ul>
+								<li><a href="#">Managing Costs </a></li>
+								<li><a href="#">Choose a Doctor</a></li>
+								<li><a href="#">Know Your Care Options</a></li>
+								<li><a href="#">Pharmacy Benefits</a></li>
+								<li><a href="#">Affordable Health Care Act</a></li>
+								<li><a href="#">MediCare</a></li>
+								<li><a href="#">Find A Doctor</a></li>
+								<li><a href="#">Frequently Asked Questions</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</li>
+						
+						
+					</ul>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- end #page --> 
+</div>
+<script>
+$('#policyValidity').hide();
+var myDate = new Date();
+
+var d = new Date();
+var year = d.getFullYear();
+var month = d.getMonth();
+var day = d.getDate();
+var c = new Date(year + 1, month, day);
+
+//alert(c.getFullYear());
+
+var ts = Math.round((c).getTime() / 1000);
+$('#policyValidity').val(ts);
+//alert($('#policyValidity').val());
+
+//alert(ts);
+</script>
+	<script src="js/Properties.js"></script>
+	<script src="js/commonHeaderForCustomerPages.js"></script>
+
+   
+    <script src="js/CustomerProfile.js"></script>
+    
+    
+    <script src="js/addTextBox.js"></script>
+    
+    
+    <script src="js/Properties.js"></script>
+   
+    <script src="js/applyForPolicy.js"></script>
+    <!-- 
+    <script src="js/Properties.js"></script>
+   <script src="js/pdf.js"></script>
+       <script src="js/Properties.js"></script>
+ <script src="js/createPdf.js"></script>
+  <script src="js/jqForPdf.js"></script>
+
+ -->
+
+<!-- end #footer -->
+ 
+
+
+
+</body>
+</html>

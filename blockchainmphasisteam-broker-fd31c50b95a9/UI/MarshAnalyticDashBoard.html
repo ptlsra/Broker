@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mBrokerDashboard</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="dashboard-nav">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand" href="index.html" id="marsh-icon"> <img src="assets/img/marsh--mclennan-companies-logo-2011_1509976055.png" id="marsh-image"></a><button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="index.html" id="home-button">Dashboard Home</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="statistics-div-one">
+        <div class="container" id="first-container">
+            <div class="row" id="statistics-first-row">
+                <div class="col-md-4" id="first-row-first-col"><i class="fa fa-users" id="users-icon"></i>
+                    <h1 id="number-of-users-heading">Customers </h1><span id="users-span">0 </span></div>
+                <div class="col-md-4" id="first-row-second-col"><i class="fa fa-file-text-o" id="claims-icon"></i>
+                    <h1 id="number-of-claims-heading">Claims </h1><span id="claims-span">0 </span></div>
+                <div class="col-md-4" id="first-row-second-col"><i class="fa fa-check-circle" id="approved-policy-icon"></i>
+                    <h1 id="approved-policies-heading">Policies </h1><span id="approved-policies-span">0 </span></div>
+            </div>
+        </div>
+        <div class="container" id="first-container">
+            <div class="row" id="statistics-second-row">
+                <div class="col-md-4" id="first-row-first-col"><i class="fa fa-institution" id="tpa-icon"></i>
+                    <h1 id="number-of-tpa-heading">TPA </h1><span id="tpa-span">0 </span></div>
+                <div class="col-md-4" id="first-row-second-col"><i class="fa fa-umbrella" id="insurance-icon"></i>
+                    <h1 id="number-of-insurance-heading">Insurance Co</h1><span id="insurance-span">0 </span></div>
+                <div class="col-md-4" id="first-row-second-col"><i class="fa fa-cubes" id="blocks-icon"></i>
+                    <h1 id="blocks-heading">BlockHeight</h1><span id="blockheight-span">0 </span></div>
+            </div>
+        </div>
+    </div>
+    <div id="analytics-heading-div">
+        <h1 id="marsh-analytics-heading">Analytics </h1>
+    </div>
+    <div id="analytics-div">
+        <div class="container" id="analytics-container">
+            <div class="row" id="analytics-first-row">
+                <div class="col-md-6" id="analytics-first-row-first-col">
+                    <h1 id="claim-status-list-heading">Claim Distribution</h1>
+                    <div id="claim-status-list-div"></div>
+                </div>
+                <div class="col-md-6" id="analytics-first-row-second-col">
+                    <h1 id="dependents-by-policy-heading">Claims By PolicyId</h1>
+                    <div id="dependents-by-policy-div"></div>
+                </div>
+            </div>
+            <div class="row" id="analytics-first-row">
+                <div class="col-md-6" id="analytics-second-row-first-col">
+                    <h1 id="claim-count-estimate-heading">Claims By Initial Estimate</h1>
+                    <div id="claim-count-estimate-div"></div>
+                </div>
+                <div class="col-md-6" id="second-row-second-col">
+                    <h1 id="live-txn-stream-heading">Live Transaction Stream</h1>
+                    <div id="live-txn-div"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/analytics-live.js"></script>
+    <script src="assets/js/analytics-marsh.js"></script>
+    <script src="assets/js/plotly-latest.min.js"></script>
+</body>
+
+</html>

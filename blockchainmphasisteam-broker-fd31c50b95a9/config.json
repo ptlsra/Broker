@@ -1,0 +1,1 @@
+{"brokerWalletAddress":"0xd1c13611ee1794c987a8263010f541699e7fe997","brokerName":"mbroker","brokerWalletPassword":"","appPort":"5000","ipfsUrl":"/ip4/172.21.80.81/tcp/5001","logLevel":"debug","web3Url":"http://172.21.80.81:22002","mongoIp":"172.21.80.81","mongoPort":"27017","appIp":"0.0.0.0","appIP":"0.0.0.0","appIpAddress":"172.21.80.81","ipfsIp":"172.21.80.81"}

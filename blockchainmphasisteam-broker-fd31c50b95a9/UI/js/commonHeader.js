@@ -1,0 +1,19 @@
+
+	
+//    $("#commonHeader").load("commonHeader.html");
+
+
+var explorerIp=explorerPath();
+
+ var para = document.createElement("a");
+ para.setAttribute('href', explorerIp);
+ para.setAttribute('style', 'color:black');
+ para.setAttribute('target', '_blank');
+
+    var t = document.createTextNode("Blockchain Explorer");
+    para.appendChild(t);
+    document.getElementById("sidebar").appendChild(para);
+
+  
+
+
